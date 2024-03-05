@@ -13,8 +13,9 @@
     }
   ],
   "minimum-stability": "dev"
-}
 "autoload": {
     "psr-4": {
       "XlMerge\\": "schayg/XlMerge/"
     }
+  }
+}
