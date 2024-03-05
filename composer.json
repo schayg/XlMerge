@@ -1,5 +1,5 @@
 {
-  "name": "schayg/XlMerge",
+  "name": "XlMerge",
   "description": "merge native xlsx files into one",
   "type": "library",
   "require": {
