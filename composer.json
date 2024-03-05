@@ -1,0 +1,20 @@
+{
+  "name": "schayg/XlMerge",
+  "description": "merge native xlsx files into one",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "gusztav schay",
+      "email": "schay.gusztav@med.smmelweis-univ.hu"
+    }
+  ],
+  "minimum-stability": "dev"
+}
+"autoload": {
+    "psr-4": {
+      "XlMerge\\": "schayg/XlMerge/"
+    }
