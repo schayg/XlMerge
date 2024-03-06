@@ -17,6 +17,5 @@
     "psr-4": {
       "XlMerge\\": "schayg/xlmerge/"
     }
-  },
-  "version": "0.0.2"
+  }
 }
