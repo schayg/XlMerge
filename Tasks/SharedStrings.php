@@ -1,11 +1,11 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Consolidates the contents of two 'xl/sharedStrings.xml' files into one, and
  * returns a mapping of how old IDs map onto new IDs.
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class SharedStrings extends MergeTask {
 	public function merge($zip_dir = null) {

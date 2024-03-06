@@ -1,10 +1,10 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Modifies the "[Content_Types].xml" file to contain one more worksheet.
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class ContentTypes extends MergeTask {
 	public function merge() {

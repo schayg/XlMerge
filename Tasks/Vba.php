@@ -1,5 +1,5 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Adds a workbook's VBA code to the merged Excel file.
@@ -8,7 +8,7 @@ namespace ExcelMerge\Tasks;
  * file will contain only the code from the source file that was merged
  * last.
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class Vba extends MergeTask {
 

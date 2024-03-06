@@ -1,12 +1,12 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
-use ExcelMerge\ExcelMerge;
+use XlMerge\ExcelMerge;
 
 /**
  * An abstract superclass for all the individual tasks.
  *
- * @package ExcelMerge
+ * @package XlMerge
  * @property $working_dir
  * @property $result_dir
  */
