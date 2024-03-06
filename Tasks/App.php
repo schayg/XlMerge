@@ -1,10 +1,10 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Modifies the "docProps/app.xml" file to contain one more worksheet.
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class App extends MergeTask {
 	public function merge() {

@@ -1,10 +1,10 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Consolidates the contents of two 'xl/calcChains.xml' files into one
  * Schayg
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class CalcChains extends MergeTask { 
 public function merge($zip_dir = null) {

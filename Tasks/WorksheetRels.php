@@ -1,10 +1,10 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Modifies and copies the worksheet rels file into the target
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class WorksheetRels extends MergeTask { 
 	public function merge($origsheetnr = null , $zip_dir=null, $file_counter=null) {

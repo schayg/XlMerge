@@ -1,5 +1,5 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Consolidates the contents of two 'xl/styles.xml' files into one, and
@@ -8,7 +8,7 @@ namespace ExcelMerge\Tasks;
  * 1. a mapping of how old style IDs map onto new style IDs
  * 2. a mapping of how old 'conditional style' IDs map onto new 'conditional style' IDs
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class Styles extends MergeTask {
 	protected $style_tags = array("numFmts", "fonts", "fills", "borders", "dxfs");

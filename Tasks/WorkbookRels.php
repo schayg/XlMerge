@@ -1,10 +1,10 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Modifies the "xl/_rels/workbook.xml.rels" file to contain one more worksheet.
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class WorkbookRels extends MergeTask {
 	public function merge() {

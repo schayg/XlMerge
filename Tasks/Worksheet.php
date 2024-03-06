@@ -1,10 +1,10 @@
 <?php
-namespace ExcelMerge\Tasks;
+namespace XlMerge\Tasks;
 
 /**
  * Adds a new worksheet to the merged Excel file
  *
- * @package ExcelMerge\Tasks
+ * @package XlMerge\Tasks
  */
 class Worksheet extends MergeTask {
 
