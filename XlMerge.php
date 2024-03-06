@@ -250,7 +250,7 @@ class ExcelMerge {
 	}
 
 	protected function scanCharts($path=null,$oldname=null,$newname=null){
-	    if(is_dir($path) && oldaname && newname){
+	    if(is_dir($path) && $oldname && $newname){
 		// $chartspath=$this->result_dir."/xl/charts/";
 		$charts=glob("{$path}/chart*");
 		foreach($charts as $ch){
@@ -260,7 +260,7 @@ class ExcelMerge {
 	    }
 	}
 		protected function scanSheets($path=null,$oldname=null,$newname=null){
-	    if(is_dir($path) && oldaname && newname){
+	    if(is_dir($path) && $oldname && $newname){
 		$charts=glob("{$path}/sheet*");
 		foreach($charts as $ch){
 		    $chstr=file_get_contents($ch);
